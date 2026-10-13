@@ -1,0 +1,24 @@
+# Week 5 Database Assignment
+## Database Indexing and Optimization
+
+### Question 1: Drop an Index
+```sql
+DROP INDEX IdxPhone ON customers;
+```
+
+### Question 2: Create a User
+```sql
+CREATE USER 'bob'@'localhost'
+IDENTIFIED BY 'S$cu3r3!';
+```
+
+### Question 3: Grant INSERT Privilege
+```sql
+GRANT INSERT ON salesDB.* TO 'bob'@'localhost';
+```
+
+### Question 4: Change the User's Password
+```sql
+ALTER USER 'bob'@'localhost'
+IDENTIFIED BY 'P$55!23';
+```
